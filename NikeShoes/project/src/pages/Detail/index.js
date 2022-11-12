@@ -4,6 +4,7 @@ import { View, Text, Image, ScrollView, TouchableOpacity, StyleSheet } from 'rea
 import Dot from '../../component/Dot'
 import SizeButton from '../../component/SizeButton'
 import Button from '../../component/Button'
+import Footer from '../../component/Footer'
 
 export default function Detail( {navigation} ) {
 
@@ -48,6 +49,7 @@ export default function Detail( {navigation} ) {
                 </View>
                 <Button />
                 <View style={styles.line}/>
+                <Footer />
             </View>
         </ScrollView>
     );
